@@ -1,0 +1,5 @@
+All code and textures are created by isaiah658.
+
+The code is licensed as WTFPL or MIT. You may choose either license that fits best when adapting code into your project.
+
+The textures are licensed as Creative Commons Zero (CC0).
