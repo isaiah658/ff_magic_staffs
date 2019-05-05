@@ -7,6 +7,13 @@ Requires Minetest 0.4.16 or higher
 ## Description
 A mod for Minetest that is mostly meant for a sub game I'm working on, Floating Factories, but was segmented to allow easier use outside of the sub game. Doing this will hopefully encourage more people to use it, report bugs, and help fix code.
 
+There are 5 main staff types.
+1. Staff of Structure - Similar to the Builder's Wand mod in Minecraft.
+2. Staff of Earth - Turns default:dirt to default:dirt_with_grass, grows default:grass_1 on default:dirt_with_grass blocks, and duplicates any node that is part of the "flora" group.
+3. Staff of Ice - Turns default:water_source into default:ice.
+4. Staff of Magma - Turns default:cobble into default:lava_source.
+5. Staff of Lightning - Casts a powerful lightning bolt. Don't stand too close where you click!
+
 ## Installation
 After downloading, rename the folder to ff_magic_staffs.
 
