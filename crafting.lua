@@ -44,7 +44,7 @@ if minetest.get_modpath("floating_factories") then
 	minetest.register_craft({
 		output = 'ff_magic_staffs:staff_of_earth',
 		recipe = {
-			{'', '', 'floating_factories:green_gem'},
+			{'', '', 'ff_magic_staffs:green_gem'},
 			{'', 'floating_factories:invar_rod', ''},
 			{'floating_factories:invar_rod', '', ''},
 		}
@@ -54,7 +54,7 @@ if minetest.get_modpath("floating_factories") then
 	minetest.register_craft({
 		output = 'ff_magic_staffs:staff_of_ice',
 		recipe = {
-			{'', '', 'floating_factories:blue_gem'},
+			{'', '', 'ff_magic_staffs:blue_gem'},
 			{'', 'floating_factories:invar_rod', ''},
 			{'floating_factories:invar_rod', '', ''},
 		}
@@ -64,7 +64,7 @@ if minetest.get_modpath("floating_factories") then
 	minetest.register_craft({
 		output = 'ff_magic_staffs:staff_of_magma',
 		recipe = {
-			{'', '', 'floating_factories:red_gem'},
+			{'', '', 'ff_magic_staffs:red_gem'},
 			{'', 'floating_factories:invar_rod', ''},
 			{'floating_factories:invar_rod', '', ''},
 		}
@@ -74,7 +74,7 @@ if minetest.get_modpath("floating_factories") then
 		minetest.register_craft({
 			output = 'ff_magic_staffs:staff_of_lightning',
 			recipe = {
-				{'', '', 'floating_factories:yellow_gem'},
+				{'', '', 'ff_magic_staffs:yellow_gem'},
 				{'', 'floating_factories:invar_rod', ''},
 				{'floating_factories:invar_rod', '', ''},
 			}
@@ -85,7 +85,7 @@ else
 	minetest.register_craft({
 		output = 'ff_magic_staffs:staff_of_earth',
 		recipe = {
-			{'', '', 'floating_factories:green_gem'},
+			{'', '', 'ff_magic_staffs:green_gem'},
 			{'', 'group:stick', ''},
 			{'group:stick', '', ''},
 		}
@@ -95,7 +95,7 @@ else
 	minetest.register_craft({
 		output = 'ff_magic_staffs:staff_of_ice',
 		recipe = {
-			{'', '', 'floating_factories:blue_gem'},
+			{'', '', 'ff_magic_staffs:blue_gem'},
 			{'', 'group:stick', ''},
 			{'group:stick', '', ''},
 		}
@@ -105,7 +105,7 @@ else
 	minetest.register_craft({
 		output = 'ff_magic_staffs:staff_of_magma',
 		recipe = {
-			{'', '', 'floating_factories:red_gem'},
+			{'', '', 'ff_magic_staffs:red_gem'},
 			{'', 'group:stick', ''},
 			{'group:stick', '', ''},
 		}
@@ -116,7 +116,7 @@ else
 		minetest.register_craft({
 			output = 'ff_magic_staffs:staff_of_lightning',
 			recipe = {
-				{'', '', 'floating_factories:yellow_gem'},
+				{'', '', 'ff_magic_staffs:yellow_gem'},
 				{'', 'group:stick', ''},
 				{'group:stick', '', ''},
 			}
