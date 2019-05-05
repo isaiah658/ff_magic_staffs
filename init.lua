@@ -12,3 +12,6 @@ dofile(minetest.get_modpath("ff_magic_staffs") .. "/crafting.lua")
 
 -- Tools
 dofile(minetest.get_modpath("ff_magic_staffs") .. "/tools.lua")
+
+-- Overrides
+dofile(minetest.get_modpath("ff_magic_staffs") .. "/overrides.lua")
