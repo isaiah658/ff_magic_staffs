@@ -1,6 +1,6 @@
 # Minetest Mod - Floating Factories Magic Staffs
 
-Version 1.0.0  
+Version 1.0.1 
 Requires Minetest 0.4.16 or higher  
 (It may work on older Minetest versions, but they're not a priority.)  
 
@@ -89,3 +89,11 @@ Staff of Yellow (group:stick is floating_factories:invar_rod if floating_factori
 | ---------------- | ------------------ | ------------------ |
 | ---------------- | **group:stick** | --------------------  |
 | **group:stick**  | --------------- | ------------------- |
+
+
+## Changelog
+Version 1.0.1 
+  - Fixes the staff of structure from placing more blocks than what the player has in their inventory
+  
+Version 1.0.0
+  - Initial release
