@@ -153,7 +153,7 @@ ff_magic_staffs.staff_of_structure_on_use = function (wear_amount, max_radius)
 							-- Checks a block adjacent to the first block placed for air
 							if minetest.get_node(surrounding_node_pos).name == "air" then
 								-- If it is air, check that the node has a name, the staff has durability left, and place the block
-								if undernode.name ~= nil and undernode.name ~= "" and staff_of_structure_wear < 65536 then
+								if undernode.name ~= nil and undernode.name ~= "" and staff_of_structure_wear < 65536 and inv:contains_item("main", undernode.name) then
 									if not creative_enabled then
 										inv:remove_item("main", undernode.name .. " 1")
 									end
